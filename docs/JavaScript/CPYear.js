@@ -1,0 +1,1 @@
+var clientTimeYearCP=new Date;document.getElementById("CP_Year").innerHTML=clientTimeYearCP.getFullYear();

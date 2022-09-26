@@ -1,0 +1,1 @@
+var foo,seconds=14;function redirect(){window.open("https://cloud.neminis.net/","_top")}function updateSecs(){document.getElementById("seconds").innerHTML=seconds,seconds--,-1==seconds&&(clearInterval(foo),redirect())}function countdownTimer(){foo=setInterval(function(){updateSecs()},966)}countdownTimer();
